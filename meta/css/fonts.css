@@ -1,0 +1,89 @@
+/* grandstander-regular - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Grandstander';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/grandstander-regular.woff2') format('woff2'),
+       url('../font/grandstander-regular.ttf') format('truetype');
+}
+
+/* grandstander-italic - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Grandstander';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../font/grandstander-italic.woff2') format('woff2'),
+       url('../font/grandstander-italic.ttf') format('truetype');
+}
+
+/* grandstander-500 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Grandstander';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../font/grandstander-500.woff2') format('woff2'),
+       url('../font/grandstander-500.ttf') format('truetype');
+}
+
+/* grandstander-500italic - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Grandstander';
+  font-style: italic;
+  font-weight: 500;
+  src: url('../font/grandstander-500italic.woff2') format('woff2'),
+       url('../font/grandstander-500italic.ttf') format('truetype');
+}
+
+/* grandstander-600 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Grandstander';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../font/grandstander-600.woff2') format('woff2'),
+       url('../font/grandstander-600.ttf') format('truetype');
+}
+
+/* grandstander-600italic - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Grandstander';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../font/grandstander-600italic.woff2') format('woff2'),
+       url('../font/grandstander-600italic.ttf') format('truetype');
+}
+
+/* grandstander-700 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Grandstander';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/grandstander-700.woff2') format('woff2'),
+       url('../font/grandstander-700.ttf') format('truetype');
+}
+
+/* grandstander-700italic - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Grandstander';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../font/grandstander-700italic.woff2') format('woff2'),
+       url('../font/grandstander-700italic.ttf') format('truetype');
+}
+
+/* barriecito-regular - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Barriecito';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/meta/font/barriecito-regular.woff2') format('woff2'),
+       url('/meta/font/barriecito-regular.ttf') format('truetype');
+}

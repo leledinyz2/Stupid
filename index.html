@@ -1,0 +1,392 @@
+<!DOCTYPE html><html lang="en-US"><head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="robots" content="noarchive"> <meta name="description" content="Website for me to scream into the void to"> <meta name="keywords" content="stupied, stupiedidiot, stupied.idiot, stupied_idiot, art, comics, blog, ocs, tier lists"><script type="" src="meta/js/global.js"></script><link rel="icon" type="image/x-icon" href="favicon.ico"><link rel="stylesheet" href="meta/css/global.css"><title>stupied stuff!</title> <style>
+header #meirl { grid-area: meirl; } 
+header #blog { grid-area: blog; } 
+header #all { grid-area: all; } 
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template: 
+    'meirl all'
+    'blog all';
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 2fr 1fr;
+    box-sizing: border-box;
+    max-height: 95vh;
+    height: auto;
+    max-width: 95%;
+    width: auto;
+    gap: 0.5rem;
+    aspect-ratio: 3/2;
+
+    > * { border: 3px solid black; }
+    a { display: block; }
+}
+
+header #meirl {
+    background: url(meta/img/sunburst.svg);
+    background-size: 100% 100%;
+    background-color: #a7dddc;
+    overflow: hidden;
+
+    a, div { width: 100%; height: 100%; }
+    img { position: absolute; }
+
+    a > div { 
+        position: relative;
+        animation: 1.5s ease-out dragUp;
+    }
+
+    .doll {
+        z-index: 1;
+        top: 5%;
+        left: 7%;
+        width: 90%;
+        animation: 5s sway infinite ease-in-out;
+        transform-origin: 40% 0;
+    }
+
+    .cursor {
+        z-index: 2;
+        width: 15%;
+        top: 3%;
+        left: 37%;
+    }
+}
+
+@keyframes dragUp {
+    0% { transform: translateY(90%); }
+    100% { transform: none; }
+}
+
+@keyframes sway {
+    0% { transform: rotate(5deg); }
+    50% { transform: rotate(-5deg); }
+    100% { transform: rotate(5deg); }
+}
+
+header #blog {
+    background-color: var(--dk-blue);
+    position: relative;
+    z-index: 2;
+    a {
+        position: absolute;
+        width: 105%;
+        top: -20%;
+        left: 0;
+    }
+    img { 
+        transform: rotate(12deg);
+        transition: 0.2s transform;
+        width: 100%;
+    }
+
+    a:hover img { transform: rotate(14deg); }
+}
+
+header #all { overflow: hidden; }
+
+#topbar {
+    height: 10%;
+    background-color: var(--accent-color);
+    border-bottom: 3px solid black;
+    box-sizing: border-box;
+    position: relative;
+    
+    > span {
+        font-family: var(--display-font);
+        position: absolute;
+        top:50%; right: 5%;
+        transform: translateY(-50%);
+    }
+    > span > span {
+        font-weight: bolder;
+    } 
+}
+
+#scene {
+    height: 90%;
+    background-image: url(meta/img/clouds.jpg);
+    background-size: auto 120%;
+    animation:bg-scroll 240s infinite linear;
+    position: relative;
+
+    > * { position: absolute; }
+    img { width: 100%; }
+    #pole {
+        z-index: 1;
+        position: absolute;
+        width: 5%;
+        bottom: -10%;
+        left: 21%;
+    }
+
+    #warning {
+        z-index: 3;
+        width: 39%;
+        top: -9%;
+        left: 6%;
+    }
+
+    #art {
+        z-index: 3;
+        width: 45%;
+        top: 33%;
+        left: 5%;
+    }
+
+    #art img { transition: 0.2s; transform: rotate(-6deg); }
+    #art:hover img { transform: none;}
+
+    #comic {
+        z-index: 3;
+        width: 35%;
+        top: 60%;
+        left: 8%;
+    }
+
+    #comic img {
+        transform-origin: 50% 0;
+        animation: 3s ease-in-out infinite wind;
+    }
+
+    #ocs {
+        z-index: 2;
+        width: 60%;
+        bottom: -5%;
+        right: 3%;
+    }
+
+    #ocs img {
+        animation: 5s ease-in-out infinite breathe;
+    }
+}
+
+@keyframes bg-scroll {
+    0%{ background-position: 0 100%; }
+    100%{ background-position: calc(1350px * 1.5) 100%; }
+}
+
+@keyframes wind {
+    0%{ transform: rotate(-10deg); }
+    50%{ transform: rotate(2deg); }
+    100%{ transform: rotate(-10deg); }
+}
+
+@keyframes breathe {
+    0%{ transform: translateY(2%); }
+    50%{ transform: translateY(0%); }
+    100%{ transform: translateY(2%); }
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        display: block;
+        aspect-ratio: unset;
+        max-height: none;
+        > * { margin-bottom: 0.5rem ;}
+    }
+    #meirl { aspect-ratio: 8/9; }
+    #blog { aspect-ratio: 4/2; overflow: hidden; }
+    #all { aspect-ratio: 8/9; }
+}
+
+main #frame {
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(#444cf7 1.1px, transparent 1.1px), linear-gradient(to right, #444cf7 1.1px, #e5e5f7 1.1px);
+    background-size: 22px 22px;
+}
+
+main {
+ margin: auto;
+ padding: 1rem;
+ width: 95%;
+ max-width: 750px;
+ box-sizing: border-box;
+}
+
+.meow span{display: inline-block;}
+.meow span:nth-of-type(n){animation:jump 1s infinite; }
+.meow span:nth-of-type(2n){animation:fall 1s infinite;}
+
+@keyframes jump {
+    50% {transform:translateY(5%);}
+    100% {transform:translateY(-5%);}
+}
+
+@keyframes fall {
+    50% {transform:translateY(-5%);}
+    100% {transform:translateY(5%);}
+}
+
+article { display: flex; gap: 1rem; }
+#intro { flex: 3; }
+#temp { flex: 2; }
+
+#outlinks {
+    font-family: var(--display-font);
+    font-weight: bolder;
+    font-size: 2rem;
+    display: block;
+    padding: 0.5rem;
+}
+
+#intro a:hover {color: var(--accent-color);}
+
+#webrings {
+    flex: 300px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+#webrings > div {
+    overflow: auto;
+    height: 100%;
+}
+
+#webrings > div > a {
+    display: block;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+#grrrl {
+    position: absolute;
+    bottom: -1.5rem;
+    right: 0.5rem;
+    width: 6rem;
+}
+
+#grrrl img { width: 100%; }
+
+nav {
+    margin: 1rem auto;
+    width: 90%;
+    color: var(--accent-color);
+    text-align: center;
+    position: relative;
+    z-index: 3;
+
+    > a:hover { color: black; }
+    > a:not(:last-of-type)::after {
+        content: "•";
+        color: var(--accent-color);
+        display: inline-block;
+        margin: auto 1rem;
+    }
+}
+
+footer { color: var(--accent-color); text-align: center;}
+footer > nav > ul {
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    article { display: block; }
+    #temp #webrings {
+        aspect-ratio: 2/1;
+    }
+}
+</style> <script type="" src="meta/js/tooltip.js" defer=""></script> </head> <body> <noscript> <div style="margin: auto; max-width: 600px; padding: 1rem;"> <h1>Attention!</h1> <p>Although most of the website is navigable without Javascript, there are some pages that utilize it heavily and may not work with it disabled. So, If possible, keep it on :'D</p> </div> </noscript> <header> <div id="meirl"> <a href="/about/" class="tooltip" title="About the Webmaster"> <span>About the Webmaster (that's me!)</span> <div class="outline-hover"> <img class="cursor" src="meta/img/cursor.png" alt=""> <img class="doll" src="meta/img/meirl.png" alt=""> </div> </a> </div> <div id="all"> <div id="topbar"><span><span>stupied</span>.neocities.org</span></div> <div id="scene"> <a href="/meta/warning/" id="warning" class="tooltip"> <img src="meta/img/warning.png" class="outline-hover" alt=""> <span>Website's content warnings</span> </a> <a href="/art/" id="art" class="tooltip"> <img src="meta/img/art.png" class="outline-hover" alt=""> <span>Artwork and animations</span> </a> <a href="/comic/" id="comic" class="tooltip"> <img src="meta/img/comic.png" class="outline-hover" alt=""> <span>Sequential images to tell stories</span> </a> <img id="pole" src="meta/img/pole.png" alt=""> <a href="https://stupied-ocs.neocities.org/" id="ocs" class="tooltip"> <img src="meta/img/psyche.png" class="outline-hover" alt=""> <span>Read about my OCs!</span> </a> </div> </div> <div id="blog"> <a href="/blog/" class="tooltip" title="Screaming into the abyss"> <img src="meta/img/blog.png" class="outline-hover" alt=""> <span>Screaming into the abyss</span> </a> </div> </header> <nav> <a href="/about/" title="About the Webmaster">meirl</a> <a href="/art/" title="Artwork and animations">art</a> <a href="/blog/" title="Screaming into the abyss">blog</a> <a href="/comic/" title="Sequential images to tell stories">comics</a> <a href="/chez/">chez</a> <a href="/code/">codez</a> </nav> <main> <article> <section id="intro"> <h1 class="meow"> <span>H</span><span>e</span><span>n</span><span>l</span><span>o</span> <span>T</span><span>h</span><span>e</span><span>r</span><span>e</span><span>!</span><span>!</span> </h1> <p>This website serves as an archive of all my art and writings! I love it to absolute bits and will forever be in a work in progress :]</p><div id="other"> <h2>Other Stuff</h2> <ul class="db-list"> <li><a href="https://literalwiki.neocities.org/">LiteralWiki</a></li> <li><a href="/guestbook">Guestbook</a></li> <li><a href="/meta/log/">Changelog</a></li> </ul> <a id="outlinks" href="/outlinks/">Outlinks »</a> </div> </section> <section id="temp"> <div id="webrings"> <div><style>
+@import url(https://fonts.bunny.net/css?family=acme:400);
+#doodlering-container {
+    background-image: url(../evehibi.nekoweb.org/doodlering/background.png);
+    background-size: 105%;
+    background-position: 50%;
+    padding: 1rem 0;
+}
+
+#doodlering { margin: 0 auto!important; }
+#doodlering .webring-wrapper { background-image: none!important; }
+
+#webmaster {
+    font-family: "Acme";
+    background-color: #2da5d8;
+    color: white;
+    padding:1rem 0.5rem;
+    text-align: center;
+}
+</style> <div id="doodlering-container"> <div id="doodlering"> <script src="../evehibi.nekoweb.org/doodlering/onionring-variables.js"></script><script src="../evehibi.nekoweb.org/doodlering/onionring-widget.js"></script> <link rel="stylesheet" href="../evehibi.nekoweb.org/doodlering/onionring.css"> </div> </div> <div id="webmaster"> <link rel="stylesheet" type="text/css" href="../file.garden/ZrZSgsrYfQXsO7QH/ww/webmasterwebring.css"> <a href="https://webmasterwebring.netlify.app?stupied-previous">�</a> <a href="https://webmasterwebring.netlify.app">Webmaster Webring</a> <a href="https://webmasterwebring.netlify.app?stupied-random">?</a> <a href="https://webmasterwebring.netlify.app?stupied-next">�</a> </div> <div id="aperturewebring"> <link rel="stylesheet" href="../jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring.css"> <script src="../jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-variables.js"></script><script src="../jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring-widget-1.js"></script> <noscript> This site is part of the <a href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring">Aperture Webring</a>! </noscript> </div><a href="/meta/webrings">View More »</a> </div> <a href="https://www.grrrl.valentinely.cc/" target="_blank" style="display:block;margin-bottom:0.5rem;" id="grrrl"><img src="about/img/grrrl-v2.png" alt="Made By Girl Button"></a> </div> </section> </article><section id="feed"> <div id="feed-content"> <a id="feed-first" href="/blog/2025-Artist-Questionnaire" style="--thumb:url(art/img/25/doodle/Earthquake-Drill.jpg);"> <div class="outline" style="--color: black;"> <h4>28 Nov 2025</h4> <span>100 Questions for Artist</span> </div> </a> <section id="feed-timeline"> <h2>Recent Updates</h2> <ul> <li class="feed-item"> <h4>25 Nov 2025</h4> <a href="/blog/2025-OCs" class="feed-title">Improving My OC Website</a> </li> <li class="feed-item"> <h4>24 Nov 2025</h4> <a href="/art/~?25/hatober/30.jpg" class="feed-title">Suit and Tie</a> </li> <li class="feed-item"> <h4>16 Nov 2025</h4> <a href="/code/applepie/" class="feed-title">Rotten Apple Template</a> </li> <li class="feed-item"> <h4>11 Nov 2025</h4> <a href="/art/~?25/hatober/01.jpg" class="feed-title">What's Wrong With You?</a> </li> </ul> <a class="feed-more" href="./meta/log/index.html#feed">View More »</a> </section> </div> </section> <style>
+#feed {
+    margin: auto;
+    margin-top: 1rem;
+    border: 3px solid black;
+    a:hover { color: var(--accent-color) }
+    ul { padding-left: 0.5rem; }
+}
+
+#feed-first {
+    flex: 40%;
+    position: relative;
+    display: block;
+    min-height: 150px;
+    background-image: var(--thumb);
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+
+    span > span { display: none; }
+    > div { 
+        opacity: 0; 
+        transition: 0.2s;
+        z-index: 2;
+        text-align: center;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        > span { color: white; }
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        z-index: 1;
+        background: black;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: 0.2s;
+    }
+
+    &:hover {
+        &::after { opacity: 0.9; }
+        > div { opacity: 1; top: 50%; }
+    }
+}
+
+#feed-timeline {
+    flex: 60%;
+    padding: 1.5rem;
+    > h2 { color:var(--yellow) }
+    > ul { margin-bottom: 0.5rem; }
+    cursor: pointer;
+}
+
+.feed-item {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+    h4 { display: inline-block; }
+    h4::after { content: " » "}
+    a { color: var(--gray); }
+}
+
+.feed-more {
+    color: var(--);
+    font-size: bolder;
+    font-family: var(--display-font);
+}
+
+.feed-title > span {display: none;}
+
+@media only screen and (min-width: 600px) {
+    #feed-content { display: flex; }
+}
+</style></main> <footer class="default-footer"> <ul><li><a href="/about/">about</a></li><li><a href="/map">map</a></li><li><a href="/meta/rss/">rss</a></li><li><a href="/about/faq">faq</a></li><li><a href="/about/contact">contact</a></li></ul><span>Hosted on <a href="https://neocities.org/site/stupied-profile">Neocities</a>!</span> </footer>  </body></html>
