@@ -1,1 +1,356 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://stupied.neocities.org/meta/warning?/ -->
+<html lang="en-US" data-darkreader-mode="dynamic" data-darkreader-scheme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">@layer {
+html {
+    background-color: var(--darkreader-background-ffffff, #161718) !important;
+}
+html {
+    color-scheme: dark !important;
+}
+iframe {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: var(--darkreader-background-ffffff, #161718);
+}
+html, body {
+    border-color: var(--darkreader-border-4c4c4c, #686055);
+    color: var(--darkreader-text-000000, #d1cfcc);
+}
+a {
+    color: var(--darkreader-text-0040ff, #3787e6);
+}
+table {
+    border-color: var(--darkreader-border-808080, #4c5255);
+}
+mark {
+    color: var(--darkreader-text-000000, #d1cfcc);
+}
+::placeholder {
+    color: var(--darkreader-text-a9a9a9, #a09a91);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: var(--darkreader-background-faffbd, #3d4100) !important;
+    color: var(--darkreader-text-000000, #d1cfcc) !important;
+}
+::selection {
+    background-color: var(--darkreader-background-0060d4, #0049a0) !important;
+    color: var(--darkreader-text-ffffff, #d1cfcc) !important;
+}
+::-moz-selection {
+    background-color: var(--darkreader-background-0060d4, #0049a0) !important;
+    color: var(--darkreader-text-ffffff, #d1cfcc) !important;
+}
+}</style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula, a[data-testid="headerMediumLogo"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container {
+    filter: invert(100%) hue-rotate(180deg) brightness(90%) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-border-short] {
+  border: var(--darkreader-inline-border-short) !important;
+}
+[data-darkreader-inline-border-bottom-short] {
+  border-bottom: var(--darkreader-inline-border-bottom-short) !important;
+}
+[data-darkreader-inline-border-left-short] {
+  border-left: var(--darkreader-inline-border-left-short) !important;
+}
+[data-darkreader-inline-border-right-short] {
+  border-right: var(--darkreader-inline-border-right-short) !important;
+}
+[data-darkreader-inline-border-top-short] {
+  border-top: var(--darkreader-inline-border-top-short) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: var(--darkreader-background-ffffff, #161718);
+   --darkreader-neutral-text: var(--darkreader-text-000000, #d1cfcc);
+   --darkreader-selection-background: var(--darkreader-background-0060d4, #0049a0);
+   --darkreader-selection-text: var(--darkreader-text-ffffff, #d1cfcc);
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style>  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="robots" content="noarchive"> <meta name="description" content="Website for me to scream into the void to"> <meta name="keywords" content="stupied, stupiedidiot, stupied.idiot, stupied_idiot, art, comics, blog, ocs, tier lists"><script type="" src="./Warning! » stupied stuff!_files/global.js.baixados"></script><link rel="icon" type="image/x-icon" href="https://stupied.neocities.org/favicon.ico"><link rel="stylesheet" href="./Warning! » stupied stuff!_files/global.css"><style class="darkreader darkreader--sync" media="screen"></style><title>Warning! » stupied stuff!</title> <script type="text/javascript">
+var previousLink = window.location.search.replace("?","");
+if (previousLink === ""){previousLink = "/";}
+function redirectBack(){
+    localStorage.setItem("warned", "true")
+    window.location.href = previousLink;
+}
+
+var prefetched = document.createElement('link');
+prefetched.rel = 'prefetched';
+prefetched.href = previousLink
+document.head.append(prefetched)
+</script><link rel="prefetched" href="https://stupied.neocities.org/"> <style>
+#meirl {
+    border: 3px solid black;
+    background: url(/meta/img/sunburst.svg);
+    background-size: 100% 100%;
+    background-color: #a7dddc;
+    aspect-ratio: 8/9;
+    overflow: hidden;
+
+    a, div { width: 100%; height: 100%; }
+    img { position: absolute; }
+
+    a > div { 
+        position: relative;
+        animation: 1.5s ease-out dragUp;
+    }
+
+    .doll {
+        z-index: 1;
+        top: 5%;
+        left: 7%;
+        width: 90%;
+        animation: 5s sway infinite ease-in-out;
+        transform-origin: 40% 0;
+    }
+
+    .cursor {
+        z-index: 2;
+        width: 15%;
+        top: 3%;
+        left: 37%;
+    }
+}
+
+@keyframes dragUp {
+    0% { transform: translateY(90%); }
+    100% { transform: none; }
+}
+
+@keyframes sway {
+    0% { transform: rotate(5deg); }
+    50% { transform: rotate(-5deg); }
+    100% { transform: rotate(5deg); }
+}
+#container {
+    max-width: 300px;
+    padding: 1rem;
+    margin: auto;
+}
+
+h1 {
+    padding: 0 0.5rem;
+}
+
+button { padding: 0.5rem; }
+
+main > * {
+    transform: translateY(-1.2rem);
+    z-index: 3;   
+}
+</style><style class="darkreader darkreader--sync" media="screen"></style> <style id="MTgwMDAwMDE5OTk5OTkw"></style><style class="darkreader darkreader--sync" media="screen"></style><script type="text/javascript" charset="utf-8" defer="" async="" src="chrome-extension://acpjhbjgjlpeanfemfbbkabadjolngdk/inject-scripts/patch-xhr.js" data-params="{}"></script><meta name="darkreader" content="b99dbf58feae4e3387b33f79aeb2821f"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: var(--darkreader-background-ffd76e, #775600) !important;
+    border-color: var(--darkreader-background-c59d00, #997a00) !important;
+    color: var(--darkreader-text-302505, #c2bfba) !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: var(--darkreader-background-add8e6, #18424f) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: var(--darkreader-background-cfecf5, #0e333f) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: var(--darkreader-background-f5f5f5, #1b1d1e) !important;
+}
+.tou-uknfeu {
+    background-color: var(--darkreader-background-faedda, #3c2708) !important;
+}
+.tou-6i3zyv {
+    background-color: var(--darkreader-background-85c3d8, #205364) !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}
+select {
+    --darkreader-bg--form-control-background-color: rgba(22, 22, 22, 0) !important;
+}
+select * {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+body#tumblr {
+    --darkreader-bg--secondary-accent: 31, 32, 34 !important;
+    --darkreader-bg--white: 23, 23, 23 !important;
+    --darkreader-text--black: 228, 224, 218 !important;
+}
+:host {
+    --d2l-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-button-icon-background-color-hover: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-color-ferrite: var(--darkreader-neutral-text) !important;
+    --d2l-color-sylvite: var(--darkreader-bg--d2l-color-sylvite) !important;
+    --d2l-dropdown-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-dropdown-border-color: var(--darkreader-border--d2l-color-mica) !important;
+    --d2l-input-backgroud-color: var(--darkreader-neutral-background) !important;
+    --d2l-menu-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-tooltip-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-tooltip-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+:host([_floating]) .d2l-floating-buttons-container {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-top-color: var(--darkreader-border--d2l-color-mica) !important;
+    opacity: 0.88 !important;
+}
+d2l-card {
+    background: var(--darkreader-neutral-background) !important;
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+d2l-dropdown-content > div,
+d2l-menu-item {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-radius: 10px !important;
+}
+d2l-empty-state-simple {
+    border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-button-filter > ul > li > a.vui-button {
+    border-color: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-label-text:has(.d2l-button-subtle-content):hover,
+.d2l-label-text:has(.d2l-button-subtle-content):focus,
+.d2l-label-text:has(.d2l-button-subtle-content):active {
+    background-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-navigation-centerer {
+    color: inherit !important;
+}
+.d2l-tabs-layout {
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+.d2l-input,
+.d2l-calendar-date,
+.d2l-htmleditor-container {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-collapsible-panel {
+    border: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+    border-radius: 0.4rem !important;
+}
+.d2l-collapsible-panel-divider {
+    border-bottom: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-w2d-flex {
+    border-bottom: 2px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-collapsible-panel scrolled,
+.d2l-collapsible-panel-header,
+.d2l-w2d-collection-fixed {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-loading-spinner-bg {
+    fill: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-loading-spinner-bg-stroke {
+    stroke: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-loading-spinner-wrapper svg path,
+.d2l-loading-spinner-wrapper svg circle {
+    fill: var(--darkreader-neutral-background) !important;
+}</style><style>.vue-notification-group{display:block;position:fixed;z-index:5000}.vue-notification-wrapper{display:block;overflow:hidden;width:100%;margin:0;padding:0}.notification-title{font-weight:600}.vue-notification-template{display:block;box-sizing:border-box;background:#fff;text-align:left}.vue-notification{display:block;box-sizing:border-box;text-align:left;font-size:12px;padding:10px;margin:0 5px 5px;color:#fff;background:#44a4fc;border-left:5px solid #187FE7}.vue-notification.warn{background:#ffb648;border-left-color:#f48a06}.vue-notification.error{background:#e54d42;border-left-color:#b82e24}.vue-notification.success{background:#68cd86;border-left-color:#42a85f}.vn-fade-enter-active,.vn-fade-leave-active,.vn-fade-move{transition:all .5s}.vn-fade-enter-from,.vn-fade-leave-to{opacity:0}</style><style class="darkreader darkreader--sync" media="screen"></style><style>.vue-notification-group{display:block;position:fixed;z-index:5000}.vue-notification-wrapper{display:block;overflow:hidden;width:100%;margin:0;padding:0}.notification-title{font-weight:600}.vue-notification-template{display:block;box-sizing:border-box;background:#fff;text-align:left}.vue-notification{display:block;box-sizing:border-box;text-align:left;font-size:12px;padding:10px;margin:0 5px 5px;color:#fff;background:#44a4fc;border-left:5px solid #187FE7}.vue-notification.warn{background:#ffb648;border-left-color:#f48a06}.vue-notification.error{background:#e54d42;border-left-color:#b82e24}.vue-notification.success{background:#68cd86;border-left-color:#42a85f}.vn-fade-enter-active,.vn-fade-leave-active,.vn-fade-move{transition:all .5s}.vn-fade-enter-from,.vn-fade-leave-to{opacity:0}</style><style class="darkreader darkreader--sync" media="screen"></style><link type="text/css" rel="stylesheet" href="./Warning! » stupied stuff!_files/css2"><link type="text/css" rel="stylesheet" href="./Warning! » stupied stuff!_files/css2"></head> <body> <img src="./Warning! » stupied stuff!_files/2025-08-27.png" alt="" style="display: none;"> <div id="container"> <header id="meirl"> <a href="https://stupied.neocities.org/about/" title="About the Webmaster"> <div class="outline-hover"> <img class="cursor" src="./Warning! » stupied stuff!_files/cursor.png" alt=""> <img class="doll" src="./Warning! » stupied stuff!_files/meirl.png" alt=""> </div> </a> </header> <main> <h1 class="outline">Content Warning!</h1> <p>This website is ran by an adult with a dislike for censorship.</p> <p>There might be bad-words, artworks that features gore and violence, and mildly suggestive content.</p> <button onclick="redirectBack()">Continue Anyways</button> </main> </div>  <div id="cpn-wrapper" style="display: block;"><template shadowrootmode="closed"><div id="7s1dotkjmq"><style type="text/css">
+  @import 'chrome-extension://bpgniflghkfilpfdacibcpggobmldnlf/app.css';
+</style>
+<div id="cuponomia" data-v-app=""><div></div></div>
+</div></template></div></body></html>
 
